@@ -25,3 +25,17 @@ use ORM sequelize to operate mysql
     foreignKey: 'userId'
 })
 
+#### 8、安装redis
+1）url: http://www.runoob.com/redis/redis-install.html
+
+2）注意： 通过redis-server 启动redis报错【REDIS启动出错CREATING SERVER TCP LISTENING SOCKET 127.0.0.1:6379: BIND: NO ERROR】
+
+    解决办法： 1、命令行运行 redis-cli.exe 2、shutdown 3、exit 4 重启 redis-server
+#### 9、使用redis
+    set name 'dc'; set site 'www.google.com'; get name; keys *
+    
+#### 10、         
+
+，
+
+
